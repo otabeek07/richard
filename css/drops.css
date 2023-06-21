@@ -1,0 +1,58 @@
+.drops {
+    padding: 162px 0 0;
+}
+
+.drops__wrap {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 65px;
+}
+
+.drops__desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.drops__p {
+    font-family: 'Gothic A1';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #6B6B6B;
+    width: 700px;
+}
+
+.drops__down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+hr {
+    width: 30px;
+    height: 1px;
+}
+
+.drops__p-left {
+    font-family: 'Gothic A1';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+
+}
+
+.drops__p-right {
+    font-family: 'bold',sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+
+}

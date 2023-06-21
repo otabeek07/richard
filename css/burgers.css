@@ -1,0 +1,56 @@
+.burgers {
+    padding: 170px 0 0;
+}
+
+.burgers__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.burgers__desc {
+    display: flex;
+    gap: 30 px;
+    align-items: start;
+    flex-direction: column;
+}
+
+.burgers__desc-h {
+    font-family: 'Gothic A1';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #A8A8A8;
+
+}
+
+.burgers__desc-hh {
+    font-family: 'Gothic A1';
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #000;
+    max-width: 250px;
+    width: 100%;
+}
+
+.span-p {
+    font-family: 'bold',sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    color: gray;
+
+}
+
+.burgers__desc-p {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #6B6B6B;
+    width: 330px;
+
+}

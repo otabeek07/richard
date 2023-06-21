@@ -1,0 +1,113 @@
+.header {
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    padding: 30px 0;
+}
+
+.header__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header__list {
+    display: flex;
+    gap: 30px;
+    font-family: 'Gothic A1';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+
+
+}
+
+.header__item a {
+    color: #fff;
+}
+
+.banner__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.banner__desc{
+    color: #fff;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    flex-direction: column;
+    /* position: absolute;
+    max-width: 677px;
+    width: 100%;
+    z-index: 221; */
+}
+.banner__title {
+    font-family: 'Gothic A1';
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+.banner__desc-p {
+    font-family:'Gothic A1';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44px;
+    /* position: absolute;
+    max-width: 677px;
+    width: 100%;
+    z-index: 1; */
+}
+.btn{
+    height: 65px;
+    background:#FC0A7E;
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+
+}
+@media screen and (max-width:1160px) { 
+    .header__wrap{
+        display: flex;
+        gap: 20px ;
+        flex-direction: column;
+        padding: 0 0 30px;
+    }
+    
+}
+@media screen and (max-width:991px) {
+    .banner__wrap{
+      flex-wrap: wrap ;
+    }
+
+}
+@media screen and (max-width:600px) {
+    .banner__desc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column  ;
+        width: auto;
+        height: auto;
+
+    }
+.banner__title{
+    font-size: 50px;
+}   
+.banner__desc-p{
+    font-size:25px;
+    align-items: center;
+    padding: 0 15px;
+}
+.btn{
+
+    width: 150  px;
+}
+.banner__img{
+    display: flex;
+    margin-top: 20px;
+    width: 500px;
+    overflow: hidden;
+}
+}

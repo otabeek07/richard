@@ -1,0 +1,28 @@
+.numbers {
+    padding: 165px 0 0;
+}
+
+.numbers__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.numbers__item-h {
+    font-family: 'Gothic A1';
+    font-size: 59px;
+    font-weight: 400;
+    line-height: 90px;
+
+
+}
+
+.numbers__item-p {
+    font-family: 'Gothic A1';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+
+
+}

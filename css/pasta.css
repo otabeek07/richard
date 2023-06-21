@@ -1,0 +1,43 @@
+.pasta {
+    background: #FFf;
+    padding: 80px 0 0 0;
+}
+
+.pasta__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.pasta__desc {
+    max-width: 305px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.pasta__desc-h {
+    font-family: 'Gothic A1';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #A8A8A8;
+}
+
+.pasta__desc-p {
+    font-family: 'Gothic A1';
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+
+}
+
+.pasta__desc-p-bottom{
+    font-family: 'Gothic A1';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #6B6B6B;
+}

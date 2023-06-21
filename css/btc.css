@@ -1,0 +1,27 @@
+.btc {
+    padding: 142px 0 0;
+
+}
+
+.btc__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phones {
+    padding: 120px 0 0;
+}
+
+.phones__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.phones__img img {
+    max-width: 1140px;
+    width: 100%;
+    object-fit: cover;
+}

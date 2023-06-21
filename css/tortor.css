@@ -1,0 +1,54 @@
+.tortor {
+    padding: 160px 0 0;
+}
+
+.tortor__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 77px;
+}
+
+.tortor__desc {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 26px;
+
+    width: 500px;
+
+    
+}
+
+.tortor__desc-h {
+    font-family: 'Gothic A1';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.tortor__desc-h-h {
+    font-family: 'Gothic A1';
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+
+}
+
+.tortor__desc-p {
+
+
+    font-family:'Gothic A1';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+ 
+
+}
+.tortor__span {
+    font-family: 'bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    color: gray;
+}
